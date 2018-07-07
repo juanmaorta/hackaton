@@ -24,7 +24,7 @@ class MainContainer extends Component {
         <SearchBar
           onSubmit={(q) => console.log(`going to look for ${q}`)}
           placeHolder='i.e: cute bunnies'
-          title='Search for some gifs'
+          title='Welcome to Giffy'
         />
         <ImageList
           list={images}
