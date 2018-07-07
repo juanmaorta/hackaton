@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-const ENTER_KEY_NAME = 'Enter';
+// const ENTER_KEY_NAME = 'Enter';
 
 class Input extends Component {
   /**
@@ -27,7 +27,6 @@ class Input extends Component {
         // onKeyPress={this.onKeyPress}
         className='form-control mr-sm-2'
         type='search'
-        placeholder='Search'
         aria-label='Search'
       />
     );
